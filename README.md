@@ -53,6 +53,8 @@ Catches 68% of real bankruptcies (30 out of 44) with precision of 0.54.
 Lowering the threshold from 0.5 → 0.20 increased recall by +0.20 
 with almost no drop in precision (0.55 → 0.54).
 
+**Threshold Tuning**
+![Threshold Tuning](images/threshold_tuning.png)
 ---
 
 ## Key Bankruptcy Signals (SHAP)
@@ -62,6 +64,8 @@ with almost no drop in precision (0.55 → 0.54).
 3. **Quick Ratio** — near-zero liquidity consistently drives bankruptcy predictions
 4. **Total debt/Total net worth** — overleveraged companies are at high risk
 
+**SHAP Feature Importance**
+![SHAP Summary](images/shap_summary.png)
 ---
 
 ## Why Not Accuracy?
